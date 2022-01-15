@@ -14,7 +14,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "bd-manage\\": "src/"
+      "bitwe\\BDManage\\": "src/"
     }
   }
 }
