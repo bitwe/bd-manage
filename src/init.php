@@ -1,4 +1,5 @@
 <?php
+namespace BDManage;
 
 
 class BITWE_CONTROL

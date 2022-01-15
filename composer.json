@@ -12,5 +12,9 @@
       "email": "daniel.novo@bitwe.pt"
     }
   ],
-  "minimum-stability": "dev"
+  "autoload": {
+    "psr-4": {
+      "bd-manage\\": "src/"
+    }
+  }
 }
