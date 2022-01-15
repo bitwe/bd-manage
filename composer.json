@@ -1,5 +1,5 @@
 {
-  "name": "bitwe/bg-manage",
+  "name": "bitwe/BDManage",
   "description": "Manage Database versions",
   "type": "library",
   "require": {
