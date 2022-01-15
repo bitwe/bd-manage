@@ -1,0 +1,16 @@
+{
+  "name": "bitwe/bg-manage",
+  "description": "Manage Database versions",
+  "type": "library",
+  "require": {
+    "php": ">=7"
+  },
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Daniel NOvo",
+      "email": "daniel.novo@bitwe.pt"
+    }
+  ],
+  "minimum-stability": "dev"
+}
