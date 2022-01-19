@@ -1,9 +1,20 @@
 <?php
 
-namespace BDManage {
+namespace bitwe\BDManage {
+	class _bd extends \_BDConn
+	{
+		static function get()
+		{
+			return (object)[
+				"servername" => self::$servername,
+				"username" => self::$username,
+				"password" => self::$password,
+				"dbname" => self::$dbname,
+			];
+		}
+	}
 
-
-	class BITWE_CONTROL
+	class bitwe_control
 	{
 		public $bd, $init_config, $log = [];
 
